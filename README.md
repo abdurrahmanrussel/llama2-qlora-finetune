@@ -17,6 +17,11 @@
 - Supports batch datasets and saves adapters separately for inference.
 - Easy integration with existing LLaMA-2 models for downstream tasks.
 
+## Requirements / Notes
+- Access to the **Hugging Face Hub** is required to load **gated LLaMA-2 models** (`NousResearch/Llama-2-7b-chat-hf`).  
+- You must provide a **Hugging Face API token** to authenticate and download the model.
+
 ## Tech Stack
 - **Python**, **PyTorch**, **Transformers**, **PEFT (LoRA)**, **bitsandbytes (QLoRA)**, **TRL SFTTrainer**
 ![QLoRA Fine-Tuning Pipeline](qlora_pipeline.png)
+![QLoRA Fine-Tuning output](qlora_output.png)
