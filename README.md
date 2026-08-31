@@ -6,8 +6,6 @@ The trained LoRA adapter is published to the Hugging Face Hub.
 - **Model (adapter):** https://huggingface.co/abdur-rahman77/llama2-7b-qlora-guanaco
 - **Notebook run:** https://www.kaggle.com/code/abdurrahmanrussel/llama2-qlora-guanaco
 
-![QLoRA Fine-Tuning Pipeline](qlora_pipeline.png)
-
 ## Result
 
 | metric | value |
@@ -94,5 +92,3 @@ print(tok.decode(out[0], skip_special_tokens=True))
 ## Tech stack
 
 Python · PyTorch · Transformers · PEFT (LoRA) · bitsandbytes (QLoRA) · TRL `SFTTrainer` · Hugging Face Hub
-
-![training output](qlora_output.png)
