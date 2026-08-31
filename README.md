@@ -3,8 +3,8 @@
 QLoRA instruction-tune of **Llama-2-7B-chat** on a single free **Kaggle T4**.
 The trained LoRA adapter is published to the Hugging Face Hub.
 
-**Model:** https://huggingface.co/abdur-rahman77/llama2-7b-qlora-guanaco
-**Notebook run:** https://www.kaggle.com/code/abdurrahmanrussel/llama2-qlora-guanaco
+- **Model (adapter):** https://huggingface.co/abdur-rahman77/llama2-7b-qlora-guanaco
+- **Notebook run:** https://www.kaggle.com/code/abdurrahmanrussel/llama2-qlora-guanaco
 
 ![QLoRA Fine-Tuning Pipeline](qlora_pipeline.png)
 
